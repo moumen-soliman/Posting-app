@@ -1,0 +1,43 @@
+{
+  "name": "posting",
+  "version": "1.0.0",
+  "description": "vuejs application with firebase",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mo'men soliman",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moumen-soliman/Posting-app.git"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "express",
+    "javascript",
+    "pwa",
+    "progressive",
+    "web",
+    "application",
+    "vue",
+    "firebase",
+    "vuejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/moumen-soliman/Posting-app/issues"
+  },
+  "homepage": "https://github.com/moumen-soliman/Posting-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-ejs-layouts": "^2.3.1",
+  }
+}
