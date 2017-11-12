@@ -16,6 +16,9 @@ to run server
 follow run at 
 `http://localhost:8880/`
 
+to create post 
+`http://localhost:8880/create`
+
 to run service worker and start caching use 
 `http://localhost:8880/js/sw`
 
