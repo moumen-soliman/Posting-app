@@ -1,7 +1,7 @@
 {
   "name": "posting",
   "version": "1.0.0",
-  "description": "vuejs application with firebase",
+  "description": "Posting application is PWA, is based on NodeJS & Express and throw data by using body-parser & VueJS, and data stored in Google - Firebase, project components cached in browser storage by using Service worker, it's simple app show you how to use Service worker with other JavaScript different components.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
