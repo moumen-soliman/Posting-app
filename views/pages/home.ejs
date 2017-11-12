@@ -1,0 +1,26 @@
+		<div class="section">
+			<!-- form -->
+	 		<div class="box column user" v-for="user in users" :key="user['.key']" >
+				<article class="media">
+				  <div class="media-left">
+				    <figure class="image is-64x64">
+				      <img src="http://bulma.io/images/placeholders/128x128.png" alt="Image">
+				    </figure>
+				  </div>
+				  <div class="media-content">
+				    <div class="content">
+				      <p>
+						<strong>{{user.name}}</strong> <small>{{user.email}}</small>
+						<br>
+						{{user.post}}
+				      </p>
+				    </div>
+				  </div>
+				</article>
+				<div class="level-right">
+					<a class="button is-danger" v-on:click="removeUser(user)">
+					  Delete
+					</a>
+				</div>
+		    </div>
+		</div>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Vue -->
+  <script src="/js/main/vue.js"></script>
+  <!-- Firebase -->
+  <script src="https://gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+  <!-- VueFire -->
+  <script src="https://unpkg.com/vuefire/dist/vuefire.js"></script>
+  <!-- Bulma CSS -->
+  <link rel="stylesheet" href="/css/bulma.css">
+</head>
+
+<body>
+<nav class="navbar" role="navigation" aria-label="dropdown navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://bulma.io">
+      <img src="https://developers.google.com/web/images/web-fundamentals-icon192x192.png" alt="Posting..">&nbsp;&nbsp;<h3><b>Posting ...</b></h3>
+    </a>
+  </div>
+ <button class="button navbar-burger" data-target="navMenu">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+  <div class="navbar-menu" id="navMenu">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Posts
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="/create">
+            Add post
+          </a>
+          <a class="navbar-item" href="/">
+            View posts
+          </a>
+        </div>
+      </div>
+  </div>
+</nav>
+
+<section class="hero is-primary">
+  <div class="hero-body">
+    <p class="title">
+      Test
+    </p>
+    <p class="subtitle">
+      Service worker test <strong>with VueJS & Firebase</strong>
+    </p>
+  </div>
+</section>
+    <!-- vuefire and firebase with bulma style -->
+    <div id="app" class="container">
+        <%- body %>
+    </div>
+    <script src="/js/main/main.js"></script>
+
+</body>
+
+</html>
