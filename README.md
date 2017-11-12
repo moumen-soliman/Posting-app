@@ -1,6 +1,6 @@
 # Posting application
 
-<p>Posting application is PWA, is based on <b>NodeJS</b> & <b>Express</b> and throw data by using <b>body-parser</b> & <b>VueJS</b>, and data stored in <b>Google - Firebase</b>, project components cached in browser storage by using <b>Service worker</b>, it's simple app show you how to use Service worker with other Javascript different components.</p>
+Posting application is <b>PWA</b>, is based on <b>NodeJS</b> & <b>Express</b> and throw data by using <b>body-parser</b> & <b>VueJS</b>, and data stored in <b>Google - Firebase</b>, project components cached in browser storage by using <b>Service worker</b>, it's simple app show you how to use Service worker with other Javascript different components.
 
 # installing
 
@@ -11,8 +11,7 @@ npm install
 ```
 
 to run server 
-
-``` node server ```
+`node server`
 
 follow run at 
 `http://localhost:8880/`
